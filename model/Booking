@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+class Booking {
+  int bookingID;
+  Date bookingDate;
+  GenerateTicket ticket;
+  UserAccount user;
+  
+}
