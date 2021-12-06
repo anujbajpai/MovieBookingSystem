@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+class Movie {
+  public :
+    string Name;
+    vector<string> cast;
+    string description;
+    Genre genre;
+    Date releaseDate;
+    Language language;
+}
