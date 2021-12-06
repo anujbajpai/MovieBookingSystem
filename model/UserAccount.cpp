@@ -8,7 +8,11 @@ class UserAccount {
     string password;
     vector<Booking> bookings;   
     
+    UserAccount() {
+      //Ask user for inputID
+      //Ask user for password
+    }
+  
     Booking DoBooking();
     vector<Booking> GetBookings();
-    void createUserAccount();
 }
