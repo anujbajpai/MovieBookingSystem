@@ -7,4 +7,8 @@ class UserAccount {
     string userID;
     string password;
     vector<Booking> bookings;   
+    
+    Booking DoBooking();
+    vector<Booking> GetBookings();
+    void createUserAccount();
 }
