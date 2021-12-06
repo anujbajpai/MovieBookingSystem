@@ -4,6 +4,7 @@ using namespace std;
 
 class Movie {
   public :
+    int movieID;
     string Name;
     vector<string> cast;
     string description;
