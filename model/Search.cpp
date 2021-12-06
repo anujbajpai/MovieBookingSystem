@@ -6,5 +6,5 @@ class Search {
   public:
     vector<Movie> GetMovieByLanguage(Language language);
     vector<Movie> GetMovieByGenre(Genre genre);
-    int GetMovieByTitle(String name);
+    Movie GetMovieByTitle(String name);
 }
