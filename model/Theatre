@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+class Theatre {
+  public:
+    string ID;
+    string name;
+    Address address;
+    
+    vector<Movie> getMovies(string date, string city);
+}
