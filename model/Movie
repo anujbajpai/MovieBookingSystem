@@ -10,4 +10,7 @@ class Movie {
     Genre genre;
     Date releaseDate;
     Language language;
+    unordered_map<Date, Theatre> DateTheatreMap;
+    
+    Theatre getTheatre(Date date);
 }
