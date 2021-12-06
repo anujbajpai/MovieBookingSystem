@@ -12,5 +12,5 @@ class Movie {
     Language language;
     unordered_map<Date, Theatre> DateTheatreMap;
     
-    Theatre getTheatre(Date date);
+    vector<Theatre> getTheatre(Date date);
 }
