@@ -8,4 +8,6 @@ class GenerateTicket {
   vector<Seat> seats;
   Theatre theatre;
   double amount;
+  PaymentStatus paymentStatus;
+  PaymentMode paymentMode;
 }
