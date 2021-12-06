@@ -13,6 +13,11 @@ class UserAccount {
       //Ask user for password
     }
   
-    Booking DoBooking();
+    Booking DoBooking() {
+      Search searchObj = new Search();
+      String movieTitle = "Avenger"
+      Movie movie = searchObj.GetMovieByTitle(movieTitle);
+      //Create Booking object and proceed further
+    };
     vector<Booking> GetBookings();
 }
