@@ -25,7 +25,7 @@ City
     
 Search
     searchInput(String)
-    
+     
 Movies
     Name(String)
     Cast(vector<string>)
