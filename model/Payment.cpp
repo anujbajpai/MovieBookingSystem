@@ -6,10 +6,10 @@ class Payment {
   public:
     int paymentID;
     int amount;
-    PAYMENTMODE mode;
+    PaymentMode mode;
     UserAccount user;
     Date paymentDate;
-    PAYMENTSTATUS paymentStatus;
+    PaymentStatus paymentStatus;
     
     void makePayment();
     
